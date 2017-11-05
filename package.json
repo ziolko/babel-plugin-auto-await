@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-auto-await",
+  "version": "0.1.0",
+  "description": "Automatically await every expression in async function",
+  "main": "index.js",
+  "keywords": [
+    "webdriverio",
+    "wdio",
+    "webdriver",
+    "selenium",
+    "synchronous",
+    "sync",
+    "binding"
+  ],
+  "homepage": "https://github.com/ziolko/babel-plugin-auto-await",
+  "bugs": {
+    "url": "https://github.com/ziolko/babel-plugin-auto-await"
+  },
+  "author": "Mateusz Zieliński <mateusz.mzielinski@gmail.com> (https://github.com/ziolko)",
+  "license": "MIT",
+  "scripts": {
+  }
+}
