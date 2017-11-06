@@ -25,7 +25,7 @@ loadAndParseData().then(console.log)
 ```
 
 ## Use cases
-This plugin was valuable for me in integration tests and nodejs utility scripts. See the `examples` directory for working code.
+This plugin was valuable for me in integration tests and nodejs utility scripts. See [examples](https://github.com/ziolko/babel-plugin-auto-await/tree/master/examples) for working code.
 
 ## Installation
 `npm install --save-dev babel-plugin-auto-await`
