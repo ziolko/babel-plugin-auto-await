@@ -6,7 +6,7 @@ ES7 introduced `async` and `await` which are great. While working with them I've
 const axios = require('axios')
 
 async function loadAndParseData () {
-  // Because this funciton is marked as async we automatically await all promises
+  // Because this function is marked as async we automatically await all promises
 
   const { data: user } = axios.get('https://api.github.com/users/ziolko')
   const { data: repos } = axios.get(user.repos_url)
