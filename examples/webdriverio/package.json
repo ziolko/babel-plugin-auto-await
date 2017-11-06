@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "mocha --require babel-register test.js"
+  },
+  "babel": {
+    "plugins": [
+      "auto-await"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-auto-await": "^0.1.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "webdriverio": "^4.8.0"
+  }
+}

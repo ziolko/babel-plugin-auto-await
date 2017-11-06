@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "babel-node index.js --plugins auto-await"
+  },
+  "devDependencies": {
+    "axios": "^0.17.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-auto-await": "^0.1.0"
+  }
+}
