@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-auto-await",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Automatically await every method call in async function",
   "main": "index.js",
   "keywords": [

@@ -40,7 +40,7 @@ This plugin was valuable for me in integration tests and nodejs utility scripts.
 ```
 
 ### Via CLI
-`babel --plugins auto-await script.js`
+`babel-node --plugins auto-await script.js`
 
 ### Via Node API
 ```javascript
@@ -50,9 +50,7 @@ require("babel-core").transform("code", {
 ```
 
 ## Gotchas
-With this plugin every `async` function behaves like a regular function in multithreaded programming languages. If you don't understand the consequences then this plugin is not for you. 
-
-If you don't fully understand how `Promise`, `async` and `await` work then this plugin is not for you.
+If you don't understand how `Promise`, `async` and `await` work read [this tutorial](https://medium.com/@reasoncode/javascript-es8-introducing-async-await-functions-7a471ec7de8a) first.
 
 # License
 https://opensource.org/licenses/MIT
