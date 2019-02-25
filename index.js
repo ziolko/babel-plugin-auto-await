@@ -5,7 +5,7 @@ module.exports = function (babel) {
         path.replaceWith(babel.types.awaitExpression(path.node))
       }
     },
-    TaggedTemplateExpression: function(path) {
+    TaggedTemplateExpression: function (path) {
       if (path.parent.type !== 'AwaitExpression') {
         path.replaceWith(babel.types.awaitExpression(path.node))
       }
@@ -13,7 +13,7 @@ module.exports = function (babel) {
     Function: function (path) {
       path.skip()
     }
-  }
+  };
 
   return {
     visitor: {
@@ -24,4 +24,4 @@ module.exports = function (babel) {
       }
     }
   }
-}
+};
